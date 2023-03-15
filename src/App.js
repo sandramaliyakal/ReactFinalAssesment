@@ -7,14 +7,14 @@ import LineChart from "./features/dashboard/linechart";
 import PieChart from "./features/dashboard/piechart";
 import Registeration from "./account/register/Registeration.js";
 import Setpassword from "./account/forgot-password/Setpassword";
-import ProductList from "./products/ProductList";
+import ProductList from "./features/products/ProductList";
 import Login from "./account/login/login";
-import Post from "./posts/Post";
-import Userlist from "./users/UserList";
+import Post from "./features/posts/Post";
+import Userlist from "./features/users/UserList";
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import store from './todo/store';
-import TodoApp from './todo/TodoApp';
+import store from './features/todo/store';
+import TodoApp from './features/todo/TodoApp';
 
 
 const App = () => {
